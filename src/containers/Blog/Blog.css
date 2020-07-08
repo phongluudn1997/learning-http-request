@@ -1,7 +1,26 @@
 .Posts {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.BlogNav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.BlogNav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.BlogNav a {
+  text-decoration: none;
+  color: black;
+}
+
+.BlogNav a:hover {
+  color: #fa923f;
 }
